@@ -25,7 +25,7 @@
 // 줄 바꿈과 마침표, 띄어쓰기까지도 주의해 주세요!
 
 // 아래에 adultTag, teenagerTag, errorTag, transferTag라는 변수들을 작성해 주세요
-const ADULT_TAG = '삑!'
+let adultTag = '삑!'
 let teenagerTag = '삑삑!'
 let errorTag = '삑삑삑!'
 let transferTag = '환승입니다.'
@@ -36,11 +36,11 @@ function tagNotification(tagCase) {
 }
 
 // 테스트 코드
-tagNotification(ADULT_TAG);
+tagNotification(adultTag);
 tagNotification(teenagerTag);
 tagNotification(transferTag);
 tagNotification(errorTag);
-tagNotification(ADULT_TAG);
+tagNotification(adultTag);
 
 // 삑!
 // 삑삑!
