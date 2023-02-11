@@ -19,3 +19,14 @@
 // 주의 사항:
 // 자동 채점 과제이기 때문에, 문제의 조건에 정확히 따라주시기 바랍니다.
 // 줄 바꿈과 마침표, 띄어쓰기까지도 주의해 주세요!
+
+function calcWage(name, time, wage) {
+  let total = time * wage;
+
+  console.log(`${name}님의 근무 시간은 총 ${time}시간이며, 최종 급여는 ${total}원 입니다.`);
+}
+
+calcWage('김윤식', 208, 11340);
+calcWage('성규재', 175, 12160);
+calcWage('손태웅', 161, 13070);
+calcWage('허우선', 222, 10980);
