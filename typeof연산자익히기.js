@@ -1,6 +1,6 @@
 // 23.02.10 공부
 /* 프로그래밍 핵심 개념 in JavaScript */
-// 12. typeof 연산자 익히기
+// [자료형] 12. typeof 연산자 익히기
 
 // number가 출력되는 경우 모두 선택하기
 console.log(typeof 2);
