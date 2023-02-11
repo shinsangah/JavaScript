@@ -1,6 +1,6 @@
 // 23.02.10 공부
 /* 프로그래밍 핵심 개념 in JavaScript */
-// 09. 불린형 연습
+// [자료형] 09. 불린형 연습
 
 // 불린 (Boolean)
 console.log(2 < 1 && 'Codeit' !== 'Codeit');

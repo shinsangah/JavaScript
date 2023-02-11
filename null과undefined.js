@@ -1,6 +1,6 @@
 // 23.02.11 공부
 /* 프로그래밍 핵심 개념 in JavaScript */
-// 20. null과 undefined
+// [자료형] 20. null과 undefined
 
 자료형(Data type)
 null과 undefined

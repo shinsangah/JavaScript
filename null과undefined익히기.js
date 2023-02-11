@@ -1,6 +1,6 @@
 // 23.02.11 공부
 /* 프로그래밍 핵심 개념 in JavaScript */
-// 21. null과 undefined 익히기
+// [자료형] 21. null과 undefined 익히기
 
 let x;
 console.log(x);
