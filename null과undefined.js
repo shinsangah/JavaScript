@@ -26,7 +26,7 @@ console.log(null == undefined);
 // 동등 비교일 때는 둘 다 비슷한 의미를 가지고 있어서 true
 console.log(null === undefined);
 // false
-일치 비교를 할 때는 두 값이 서로 다르기 때문에 false
+// 일치 비교를 할 때는 두 값이 서로 다르기 때문에 false
 
 let codeit;
 console.log(codeit);
