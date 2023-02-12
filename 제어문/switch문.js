@@ -25,14 +25,14 @@
 // 과연 당신의 선택은?
 // 1.토끼 2.고양이 3.코알라 4.강아지
 
-let myChoice = 3;
+let myChoice = 5;
 
 switch (myChoice) {
   case 1:
     console.log('토끼를 선택한 당신, ...');
     break;
   case 2:
-    console.logㅁ('고양이를 선택한 당신, ...');
+    console.log('고양이를 선택한 당신, ...');
     break;
   case 3:
     console.log('코알라를 선택한 당신, ...');
@@ -43,3 +43,11 @@ switch (myChoice) {
   default:
     console.log('1에서 4사이의 숫자를 선택해주세요.');
 }
+
+// switch문은 이렇게 break를 없애면, 조건값과 일치하는 경우를 찾은 다음에는
+// break문을 만나기 전까지 그 아래 모든 동작을 실행하게 된다.
+// 각각의 case 별로 동작 부분을 작성한 다음, break를 작성해야 안전하게 switch문 사용 가능!
+
+// 물론, 이런 특징을 활용해서 의도적으로 break문을 생략하면서
+// siwtch문을 조금 더 멋있게 응용할 수도 있는데 그런 방식은 switch문이 익숙하지 않은 사람에게는
+// 오히려 실수나 오해를 일으킬 수도 있기 때문에 switch문을 처음 하는데에선 다루지 않는다.
