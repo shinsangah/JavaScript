@@ -6,22 +6,22 @@
 
 let myChoice = 3;
 
-// switch (myChoice) {
-//   case 1:
-//     console.log('토끼를 선택한 당신, ...');
-//     break;
-//   case 2:
-//     console.log('고양이를 선택한 당신, ...');
-//     break;
-//   case 3:
-//     console.log('코알라를 선택한 당신, ...');
-//     break;
-//   case 4:
-//     console.log('강아지를 선택한 당신, ...');
-//     break;
-//   default:
-//     console.log('1에서 4사이의 숫자를 선택해주세요.');
-// }
+switch (myChoice) {
+  case 1:
+    console.log('토끼를 선택한 당신, ...');
+    break;
+  case 2:
+    console.log('고양이를 선택한 당신, ...');
+    break;
+  case 3:
+    console.log('코알라를 선택한 당신, ...');
+    break;
+  case 4:
+    console.log('강아지를 선택한 당신, ...');
+    break;
+  default:
+    console.log('1에서 4사이의 숫자를 선택해주세요.');
+}
 
 // break는 switch에서 위처럼 빠져나오는 기능도 있지만,
 // 반복문에서도 사용이 가능하다.
@@ -94,8 +94,11 @@ let i = 1;
 
 while (i <= 10) {
   if (i % 2 === 0) {
-    i++;
+    i++; // while문은 for문과 다르게 추가동작 부분이 없기 때문
     continue;
+    // while문은 continue가 실행되서 동작부분을 건너뛰게 되면 바로 조건 부분으로 넘어가게 됩니다.
+    // 그래서 미리 저기서 i++; 증가시켜줘야 하는 것이다. 만약 여기서 증가시켜주지 않으면,
+    // i가 2인 채로 무한히 반복하는 코드가 될 것이다. 왜그런지는 스스로 이 코드가 실행되는 흐름을 생각하면서 꼭 이해해보길! 
   }
   console.log(i);
   i++;
@@ -110,7 +113,7 @@ while (i <= 10) {
 let i = 1;
 
 while (i <= 10) {
-  if (i % 2 !== 0) {
+  if (i % 2 !== 0) { // 짝수만 실행시키고싶다면 조건 부분을 이렇게 바꾸면 된다.
     i++;
     continue;
   }
