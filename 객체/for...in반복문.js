@@ -15,7 +15,8 @@ let sangah = {
   worstCourse: null,
   bestCourse: '자바스크립트 프로그래밍 기초'
 }
-
+// 각 property name 들 자체가 key 다.
+// 그때 그떄 상황에 맞는 이름을 지어주면 됨. key를 k 라고 해도 됨.
 for (let key in sangah) {
   console.log(key);
   // name
